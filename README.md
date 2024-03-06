@@ -14,8 +14,9 @@ PDF Keyword Extractor is a Python script that extracts text from PDF files using
 1. Ensure you have Python installed on your system. If not, download and install it from [Python's official website](https://www.python.org/).
 2. Install the required Python packages using pip:
 
+```bash
 pip install pytesseract pillow PyMuPDF
-
+```
 3. Install Tesseract OCR engine. You can download it from [Tesseract's GitHub page](https://github.com/tesseract-ocr/tesseract). Make sure to add its path to the system PATH or specify the path in the script.
 
 ## Usage
