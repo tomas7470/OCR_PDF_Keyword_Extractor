@@ -40,7 +40,7 @@ output_file = 'output.csv'
 pytesseract.pytesseract.tesseract_cmd = '/usr/local/bin/tesseract'
 
 # Call the function to search for keywords in the PDF files and generate the CSV file
-search_keywords_in_folder(keywords, folder_path, output_file)
+search_keywords_in_folder(keywords, folder_path, output_file)```
 
 ## Notes
 Ensure that the Tesseract OCR engine is properly installed and accessible to the script.
